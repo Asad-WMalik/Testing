@@ -3,6 +3,8 @@ from tkinter import filedialog, messagebox
 from sentence_transformers import SentenceTransformer, util
 import os
 
+#Just the sample coded to see if its running
+
 class ResumeRankerApp:
     def __init__(self, root):
         self.root = root
@@ -25,7 +27,8 @@ class ResumeRankerApp:
         self.result_text.pack(pady=5)
 
         self.resumes = []
-
+        a= 0
+        b-0 
     def upload_resumes(self):
         file_paths = filedialog.askopenfilenames(title="Select Resumes", filetypes=(("Text Files", "*.txt"), ("All Files", "*.*")))
         if file_paths:
